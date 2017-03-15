@@ -28,7 +28,6 @@ OC项目
 你想要的IJKMediaFramework.framework
 
 
-推流服务器设置:Class/Camera/View/StartLiveView最后一个代码块，建议搭建自己的服务器Mac搭建nginx+rtmp服务器
 
 备用服务器地址（亲测可用）：
 
@@ -48,6 +47,6 @@ rtmp://ams.studytv.cn/live/aaa (rtmp://ams.studytv.cn/livepkgr/264)
 
 rtmp://60.174.36.89:1935/live/aaa (rtmp://60.174.36.89:1935/live/vod3)
 
-手机直播采用本地环境：rtmp://192.168.1.101:1935/rtmplive/room   更改路径：Show/View/LFLivePreview.m   344行
+建议搭建自己的服务器Mac搭建nginx+rtmp服务器，本地环境：rtmp://192.168.1.101:1935/rtmplive/room   更改路径：Show/View/LFLivePreview.m   344行
 
 mac搭建rtmp服务器可参考：http://blog.csdn.net/a454431208/article/details/52780970
