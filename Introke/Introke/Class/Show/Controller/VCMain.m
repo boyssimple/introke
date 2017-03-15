@@ -84,7 +84,7 @@
 
 - (NSArray*)vcList{
     if (!_vcList) {
-        _vcList = @[@"VCAttention",@"VCFocus",@"VCNearby"];
+        _vcList = @[@"VCAttention",@"VCFocus",@"VCNear"];
     }
     return _vcList;
 }

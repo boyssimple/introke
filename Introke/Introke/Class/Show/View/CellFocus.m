@@ -63,8 +63,8 @@
         self.ivImg.image = [UIImage imageNamed:@"intImg"];
         self.ivLargeImg.image = [UIImage imageNamed:@"intImg"];
     }else{
-        [self.ivImg downloadImage:[NSString stringWithFormat:@"%@%@",IMAGE_HOST,live.creator.portrait]];
-        [self.ivLargeImg downloadImage:[NSString stringWithFormat:@"%@%@",IMAGE_HOST,live.creator.portrait]];
+        [self.ivImg downloadImage:live.creator.portrait];
+        [self.ivLargeImg downloadImage:live.creator.portrait];
     }
 }
 

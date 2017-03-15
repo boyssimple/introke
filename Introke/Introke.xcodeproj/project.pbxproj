@@ -23,6 +23,8 @@
 		291501F81DAB880D002E499A /* VCMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 291501F71DAB880D002E499A /* VCMain.m */; };
 		291501FB1DAB881D002E499A /* VCMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 291501FA1DAB881D002E499A /* VCMe.m */; };
 		291501FE1DAB8C84002E499A /* VCLuanch.m in Sources */ = {isa = PBXBuildFile; fileRef = 291501FD1DAB8C84002E499A /* VCLuanch.m */; };
+		292979461E78ED810022E506 /* VCNear.m in Sources */ = {isa = PBXBuildFile; fileRef = 292979451E78ED810022E506 /* VCNear.m */; };
+		292979491E78EDFD0022E506 /* CollCellNear.m in Sources */ = {isa = PBXBuildFile; fileRef = 292979481E78EDFD0022E506 /* CollCellNear.m */; };
 		295D3DFE1DACE1A60002581C /* IntMainHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 295D3DFD1DACE1A60002581C /* IntMainHandler.m */; };
 		295D3E011DACE24A0002581C /* IntBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 295D3E001DACE24A0002581C /* IntBaseHandler.m */; };
 		295D3E041DACE4050002581C /* IntFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 295D3E031DACE4050002581C /* IntFocus.m */; };
@@ -43,7 +45,6 @@
 		295D3E261DAE2B3D0002581C /* VCPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 295D3E251DAE2B3D0002581C /* VCPlayer.m */; };
 		295D3E291DAF41F50002581C /* INTLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 295D3E281DAF41F50002581C /* INTLocationManager.m */; };
 		295D3E2F1DAF515A0002581C /* INTNear.m in Sources */ = {isa = PBXBuildFile; fileRef = 295D3E2E1DAF515A0002581C /* INTNear.m */; };
-		295D3E321DAF54F00002581C /* CellNearby.m in Sources */ = {isa = PBXBuildFile; fileRef = 295D3E311DAF54F00002581C /* CellNearby.m */; };
 		295D3E361DAF5CF40002581C /* MJChiBaoZiHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 295D3E351DAF5CF40002581C /* MJChiBaoZiHeader.m */; };
 		295D3E391DAF696F0002581C /* INTAdvitiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 295D3E381DAF696F0002581C /* INTAdvitiseView.m */; };
 		295D3E3C1DAF6A8F0002581C /* INTAdvitise.m in Sources */ = {isa = PBXBuildFile; fileRef = 295D3E3B1DAF6A8F0002581C /* INTAdvitise.m */; };
@@ -51,7 +52,6 @@
 		295D3E421DAF98280002581C /* LFLivePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 295D3E411DAF98270002581C /* LFLivePreview.m */; };
 		2977778A1DAC8E9A00825C36 /* VCFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 297777891DAC8E9A00825C36 /* VCFocus.m */; };
 		2977778D1DAC8EA800825C36 /* VCAttention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2977778C1DAC8EA800825C36 /* VCAttention.m */; };
-		297777901DAC8EC200825C36 /* VCNearby.m in Sources */ = {isa = PBXBuildFile; fileRef = 2977778F1DAC8EC200825C36 /* VCNearby.m */; };
 		29FED1F31DAC966700B61920 /* INTMainNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FED1F21DAC966700B61920 /* INTMainNavView.m */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +87,10 @@
 		291501FA1DAB881D002E499A /* VCMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCMe.m; sourceTree = "<group>"; };
 		291501FC1DAB8C84002E499A /* VCLuanch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLuanch.h; sourceTree = "<group>"; };
 		291501FD1DAB8C84002E499A /* VCLuanch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLuanch.m; sourceTree = "<group>"; };
+		292979441E78ED810022E506 /* VCNear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCNear.h; sourceTree = "<group>"; };
+		292979451E78ED810022E506 /* VCNear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCNear.m; sourceTree = "<group>"; };
+		292979471E78EDFD0022E506 /* CollCellNear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollCellNear.h; sourceTree = "<group>"; };
+		292979481E78EDFD0022E506 /* CollCellNear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollCellNear.m; sourceTree = "<group>"; };
 		295D3DFC1DACE1A60002581C /* IntMainHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntMainHandler.h; sourceTree = "<group>"; };
 		295D3DFD1DACE1A60002581C /* IntMainHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntMainHandler.m; sourceTree = "<group>"; };
 		295D3DFF1DACE24A0002581C /* IntBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntBaseHandler.h; sourceTree = "<group>"; };
@@ -114,8 +118,6 @@
 		295D3E281DAF41F50002581C /* INTLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INTLocationManager.m; path = ../Network/INTLocationManager.m; sourceTree = "<group>"; };
 		295D3E2D1DAF515A0002581C /* INTNear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTNear.h; sourceTree = "<group>"; };
 		295D3E2E1DAF515A0002581C /* INTNear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTNear.m; sourceTree = "<group>"; };
-		295D3E301DAF54F00002581C /* CellNearby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellNearby.h; sourceTree = "<group>"; };
-		295D3E311DAF54F00002581C /* CellNearby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellNearby.m; sourceTree = "<group>"; };
 		295D3E341DAF5CF40002581C /* MJChiBaoZiHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJChiBaoZiHeader.h; sourceTree = "<group>"; };
 		295D3E351DAF5CF40002581C /* MJChiBaoZiHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJChiBaoZiHeader.m; sourceTree = "<group>"; };
 		295D3E371DAF696F0002581C /* INTAdvitiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTAdvitiseView.h; sourceTree = "<group>"; };
@@ -131,8 +133,6 @@
 		297777891DAC8E9A00825C36 /* VCFocus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCFocus.m; sourceTree = "<group>"; };
 		2977778B1DAC8EA800825C36 /* VCAttention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAttention.h; sourceTree = "<group>"; };
 		2977778C1DAC8EA800825C36 /* VCAttention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAttention.m; sourceTree = "<group>"; };
-		2977778E1DAC8EC200825C36 /* VCNearby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCNearby.h; sourceTree = "<group>"; };
-		2977778F1DAC8EC200825C36 /* VCNearby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCNearby.m; sourceTree = "<group>"; };
 		29FED1F11DAC966700B61920 /* INTMainNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTMainNavView.h; sourceTree = "<group>"; };
 		29FED1F21DAC966700B61920 /* INTMainNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTMainNavView.m; sourceTree = "<group>"; };
 		4DE6C3077AABB84E1801055D /* libPods-Introke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Introke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -374,10 +374,10 @@
 				297777891DAC8E9A00825C36 /* VCFocus.m */,
 				2977778B1DAC8EA800825C36 /* VCAttention.h */,
 				2977778C1DAC8EA800825C36 /* VCAttention.m */,
-				2977778E1DAC8EC200825C36 /* VCNearby.h */,
-				2977778F1DAC8EC200825C36 /* VCNearby.m */,
 				295D3E241DAE2B3D0002581C /* VCPlayer.h */,
 				295D3E251DAE2B3D0002581C /* VCPlayer.m */,
+				292979441E78ED810022E506 /* VCNear.h */,
+				292979451E78ED810022E506 /* VCNear.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -404,10 +404,10 @@
 				29FED1F21DAC966700B61920 /* INTMainNavView.m */,
 				295D3E051DACEA9E0002581C /* CellFocus.h */,
 				295D3E061DACEA9E0002581C /* CellFocus.m */,
-				295D3E301DAF54F00002581C /* CellNearby.h */,
-				295D3E311DAF54F00002581C /* CellNearby.m */,
 				295D3E371DAF696F0002581C /* INTAdvitiseView.h */,
 				295D3E381DAF696F0002581C /* INTAdvitiseView.m */,
+				292979471E78EDFD0022E506 /* CollCellNear.h */,
+				292979481E78EDFD0022E506 /* CollCellNear.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -627,6 +627,7 @@
 				295D3E011DACE24A0002581C /* IntBaseHandler.m in Sources */,
 				291501F11DAB838F002E499A /* CstTabBar.m in Sources */,
 				291501EB1DAB82F5002E499A /* VCTabBar.m in Sources */,
+				292979491E78EDFD0022E506 /* CollCellNear.m in Sources */,
 				291501FB1DAB881D002E499A /* VCMe.m in Sources */,
 				291501E01DAB7FE3002E499A /* ViewController.m in Sources */,
 				291501FE1DAB8C84002E499A /* VCLuanch.m in Sources */,
@@ -643,8 +644,7 @@
 				295D3E421DAF98280002581C /* LFLivePreview.m in Sources */,
 				291501EE1DAB8355002E499A /* VCBase.m in Sources */,
 				295D3E361DAF5CF40002581C /* MJChiBaoZiHeader.m in Sources */,
-				297777901DAC8EC200825C36 /* VCNearby.m in Sources */,
-				295D3E321DAF54F00002581C /* CellNearby.m in Sources */,
+				292979461E78ED810022E506 /* VCNear.m in Sources */,
 				295D3DFE1DACE1A60002581C /* IntMainHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

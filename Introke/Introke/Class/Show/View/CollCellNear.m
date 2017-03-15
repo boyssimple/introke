@@ -1,19 +1,17 @@
 //
-//  CellNearby.m
+//  CollCellNear.m
 //  Introke
 //
-//  Created by zhouMR on 16/10/13.
-//  Copyright © 2016年 luowei. All rights reserved.
+//  Created by zhouMR on 2017/3/15.
+//  Copyright © 2017年 luowei. All rights reserved.
 //
 
-#import "CellNearby.h"
-
-@interface CellNearby()
+#import "CollCellNear.h"
+@interface CollCellNear()
 @property (nonatomic, strong) UIImageView *ivImg;
 @property (nonatomic, strong) UILabel *lbDistance;
 @end
-
-@implementation CellNearby
+@implementation CollCellNear
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -42,7 +40,11 @@
 
 - (void)setNear:(IntNearLive *)near{
     _near = near;
-    [self.ivImg downloadImage:[NSString stringWithFormat:@"%@%@",IMAGE_HOST,near.creator.portrait] placeholder:@"default_room"];
+    if([near.creator.portrait hasPrefix:@"http"]){
+        [self.ivImg downloadImage:near.creator.portrait placeholder:@"default_room"];
+    }else{
+        [self.ivImg downloadImage:[NSString stringWithFormat:@"%@%@",IMAGE_HOST,near.creator.portrait] placeholder:@"default_room"];
+    }
     self.lbDistance.text = near.distance;
 }
 

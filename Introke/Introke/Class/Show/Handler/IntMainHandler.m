@@ -31,7 +31,14 @@
 
 + (void)excuteNearWithSuccess:(SuccessBlock)success withFail:(FailureBlock)fail{
     INTLocationManager *manager = [INTLocationManager sharedManager];
-    NSDictionary *params = @{@"uid":@"85149891",@"latitude":manager.latitude,@"longitude":manager.longitude};
+    NSMutableDictionary *params = [[NSMutableDictionary alloc]init];
+    [params setObject:@"85149891" forKey:@"uid"];
+    if ([manager.latitude isNotBlank]) {
+        [params setObject:manager.latitude forKey:@"latitude"];
+    }
+    if ([manager.latitude isNotBlank]) {
+        [params setObject:manager.longitude forKey:@"longitude"];
+    }
     [HttpTool getWithPath:API_NearLocation params:params success:^(id json) {
         INTNear *near = [[INTNear alloc]init];
         [near parse:json];

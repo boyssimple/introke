@@ -1,14 +1,14 @@
 //
-//  VCNearby.m
+//  VCNear.m
 //  Introke
 //
-//  Created by zhouMR on 16/10/11.
-//  Copyright © 2016年 luowei. All rights reserved.
+//  Created by zhouMR on 2017/3/15.
+//  Copyright © 2017年 luowei. All rights reserved.
 //
 
-#import "VCNearby.h"
+#import "VCNear.h"
 #import "INTLocationManager.h"
-#import "CellNearby.h"
+#import "CollCellNear.h"
 #import "IntMainHandler.h"
 #import "INTNear.h"
 #import "VCPlayer.h"
@@ -16,13 +16,12 @@
 #define kMargin 5
 #define kWidth 100
 
-static NSString *identifier = @"CellNearby";
-@interface VCNearby ()<UICollectionViewDelegate,UICollectionViewDataSource>
+static NSString *identifiers = @"CollCellNear";
+@interface VCNear ()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) NSMutableArray *dataSource;
 @end
-
-@implementation VCNearby
+@implementation VCNear
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -58,7 +57,7 @@ static NSString *identifier = @"CellNearby";
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
-    CellNearby *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
+    CollCellNear *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifiers forIndexPath:indexPath];
     IntNearLive *live = [self.dataSource objectAtIndex:indexPath.row];
     cell.near = live;
     return cell;
@@ -84,7 +83,7 @@ static NSString *identifier = @"CellNearby";
 }
 
 - (void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath{
-    CellNearby *nearCell = (CellNearby*)cell;
+    CollCellNear *nearCell = (CollCellNear*)cell;
     [nearCell showAnimation];
 }
 
@@ -95,7 +94,7 @@ static NSString *identifier = @"CellNearby";
         layout.minimumLineSpacing = 5;
         layout.minimumInteritemSpacing = 0;
         _collectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, DEVICE_WIDTH, DEVICE_HEIGHT) collectionViewLayout:layout];
-        [_collectionView registerClass:[CellNearby class] forCellWithReuseIdentifier:identifier];
+        [_collectionView registerClass:[CollCellNear class] forCellWithReuseIdentifier:identifiers];
         _collectionView.delegate = self;
         _collectionView.dataSource = self;
         _collectionView.backgroundColor = [UIColor whiteColor];
