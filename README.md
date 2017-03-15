@@ -12,10 +12,10 @@ OC项目
 * [x] 手机直播
 
 
-![image](https://github.com/boyssimple/introke/blob/master/images/Simulator%20Screen%20Shot%202017%E5%B9%B43%E6%9C%8815%E6%97%A5%20%E4%B8%8A%E5%8D%8811.39.19.png)
-![image](https://github.com/boyssimple/introke/blob/master/images/Simulator%20Screen%20Shot%202017%E5%B9%B43%E6%9C%8815%E6%97%A5%20%E4%B8%8A%E5%8D%8811.39.22.png)
-![image](https://github.com/boyssimple/introke/blob/master/images/Simulator%20Screen%20Shot%202017%E5%B9%B43%E6%9C%8815%E6%97%A5%20%E4%B8%8A%E5%8D%8811.39.29.png)
-![image](https://github.com/boyssimple/introke/blob/master/images/Simulator%20Screen%20Shot%202017%E5%B9%B43%E6%9C%8815%E6%97%A5%20%E4%B8%8A%E5%8D%8811.39.49.png)
+![image](https://github.com/boyssimple/introke/blob/master/images/01.png)
+![image](https://github.com/boyssimple/introke/blob/master/images/02.png)
+![image](https://github.com/boyssimple/introke/blob/master/images/03.png)
+![image](https://github.com/boyssimple/introke/blob/master/images/04.png)
 
 
 
