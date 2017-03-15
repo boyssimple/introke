@@ -1,4 +1,4 @@
-# introke
+# 本项目仿映客直播，完成了热点、附近、直播观看、直播等功能
 美颜功能使用的是BeautifyFace，本框架可以很快速的实现美颜功能，效果不错，它的底层还是基于的GPUImage，对GPUImage十分喜爱的Developer，可以参照BeautifyFace，写出一个属于自己的美颜功能，并且添加各种滤镜。
 
 播放端播放端用的针对RTMP优化过的ijkplayer（下面提供下载地址），ijkplayer是基于FFmpeg的跨平台播放器，这个开源项目已经被多个 App 使用，其中映客、美拍和斗鱼使用了 ijkplayer（目前GitHub5700+⭐️） 。在本文的末未提供了，已经打包好的ijkplayer，直接拖入项目就可以使用。省去了编译的过程（编译十分麻烦，并且容易出错）。
