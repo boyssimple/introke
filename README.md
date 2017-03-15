@@ -10,11 +10,15 @@ OC项目
 * [x] 附近
 * [x] 直播观看
 * [x] 手机直播
+
+
 ![image](https://github.com/boyssimple/introke/blob/master/images/Simulator%20Screen%20Shot%202017%E5%B9%B43%E6%9C%8815%E6%97%A5%20%E4%B8%8A%E5%8D%8811.39.19.png)
 ![image](https://github.com/boyssimple/introke/blob/master/images/Simulator%20Screen%20Shot%202017%E5%B9%B43%E6%9C%8815%E6%97%A5%20%E4%B8%8A%E5%8D%8811.39.22.png)
 ![image](https://github.com/boyssimple/introke/blob/master/images/Simulator%20Screen%20Shot%202017%E5%B9%B43%E6%9C%8815%E6%97%A5%20%E4%B8%8A%E5%8D%8811.39.29.png)
 ![image](https://github.com/boyssimple/introke/blob/master/images/Simulator%20Screen%20Shot%202017%E5%B9%B43%E6%9C%8815%E6%97%A5%20%E4%B8%8A%E5%8D%8811.39.32.png)
 ![image](https://github.com/boyssimple/introke/blob/master/images/Simulator%20Screen%20Shot%202017%E5%B9%B43%E6%9C%8815%E6%97%A5%20%E4%B8%8A%E5%8D%8811.39.49.png)
+
+
 
 美颜功能使用的是BeautifyFace，本框架可以很快速的实现美颜功能，效果不错，它的底层还是基于的GPUImage，对GPUImage十分喜爱的Developer，可以参照BeautifyFace，写出一个属于自己的美颜功能，并且添加各种滤镜。
 
